@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <div style="font-family: monospace; line-height: 2;">
+    {{ range .Site.Sections }}
+      <div>
+        <span style="opacity: 0.4;">/</span><a href="{{ .Permalink }}">{{ .Title | lower }}</a>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
