@@ -1,4 +1,4 @@
 theme = 'paper'
 title = "Ihor throws stuff at web"
-[author]
-  name = "Ihor Zvieriev"
+[params]
+  author = "Ihor Zvieriev"
